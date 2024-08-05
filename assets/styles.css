@@ -1,0 +1,145 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apply a cheerful and modern font */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background: #ff7043; /* Bright orange */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+header h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffe55b; /* Lighter yellow for contrast */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffab91; /* Lighter shade of bright orange */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #ff7043;
+}
+
+/* Style the main content */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #ff7043;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  margin: 1rem 0;
+  color: #555;
+}
+
+/* Style the footer */
+footer {
+  background: #ff7043;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+
+/* Add styles for the Skills section */
+#skills {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+  color: #ff7043;
+  border-bottom: 2px solid #ff7043;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#skills h3 {
+  color: #ff7043;
+  margin-top: 1rem;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#skills ul li {
+  background: #ffe55b;
+  color: #333;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#skills ul li:hover {
+  background: #ff7043;
+  color: #fff;
+}
